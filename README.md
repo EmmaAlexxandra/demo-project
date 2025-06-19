@@ -29,4 +29,3 @@ Then visit: [http://localhost:3000](http://localhost:3000)
 
 I used ChatGPT to help debug a file upload handler and verify some filesystem syntax. All logic, structure, and integration were written by hand.
 
-Then visit: <http://localhost:3000>
