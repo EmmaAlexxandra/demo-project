@@ -55,7 +55,17 @@ function Home() {
     <main className="p-4">
       <h1 className="text-lg font-bold mb-4">Image Upload</h1>
 
-      <input type="file" accept="image/*" onChange={handleFileChange} />
+      
+      <label className="mt-4 block cursor-pointer rounded-lg border-2 border-dashed border-blue-400 bg-blue-50 p-6 text-center text-blue-600 hover:bg-blue-100 transition">
+        Click here to select an image
+        <input
+          type="file"
+          accept="image/*"
+          onChange={handleFileChange}
+          className="hidden"
+        />
+      </label>
+
       <button
         className="ml-2 px-4 py-2 bg-blue-500 text-white rounded"
         onClick={handleUpload}
